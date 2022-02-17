@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc;
+}
+
+main {
+    width: 600px;
+    margin: 32px auto;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 16px;
+}
+
+.add {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: cornflowerblue;
+    border-bottom: solid 1px gray;
+}
+
+.done {
+    text-decoration: line-through;
+    color:#ccc;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.delete {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.delete-form {
+    margin-left: auto;
+    padding-left: 8px;
+}
+
+.colon {
+    color:black;
+    display: inline;
+}
+
+
+.logout {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.add_form {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.login_form {
+    background-color: #99ffff;
+    padding: 20px 20px;
+}
+
+.join_form {
+    background-color: #99ffff;
+    padding: 20px 20px;
+}
+
+.check_form {
+    background-color: #99ffff;
+    padding: 20px 20px;
+}
